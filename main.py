@@ -18,7 +18,7 @@ from text_speech import *
 import google.generativeai as genai
 
 # Set page config
-st.set_page_config(page_title="PDF Summarizer", page_icon="📄")
+st.set_page_config(page_title="DocuGenie: AI Document Summarizer", page_icon="📄", layout="wide")
 
 deepgram_api = os.getenv("DEEPGRAM_API_KEY")
 
